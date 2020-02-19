@@ -4,7 +4,7 @@
       'variables': {
         'GTK_Root%': 'C:/GTK',  # Set the location of GTK all-in-one bundle
         'with_jpeg%': 'true',
-        'with_gif%': 'true',
+        'with_gif%': 'false',
         'with_rsvg%': 'true',
         'variables': { # Nest jpeg_root to evaluate it before with_jpeg
           'jpeg_root%': '<!(node ./util/win_jpeg_lookup)'
